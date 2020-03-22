@@ -114,13 +114,3 @@ const cache = new LRUCache({
         console.log(k, v);
     }
 });
-
-cache.set('1', '1');
-cache.set('2', '2');
-cache.set('3', '3')
-cache.set('3', '4')
-// cache.set('3', '2')
-// console.log(cache.get('3'));
-console.log(cache.values());
-
-console.log(cache.get('3'));
