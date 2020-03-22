@@ -106,11 +106,3 @@ export class LRUCache<V = string> {
         this.ON_DISPOSE && this.ON_DISPOSE(node.item.key, node.item.value);
     }
 }
-
-const cache = new LRUCache({
-    maxSize: 2,
-    maxAge: 10000,
-    onDispose: (k, v) => {
-        console.log(k, v);
-    }
-});
