@@ -1,1 +1,1 @@
-export { LRUCache } from './LRUCache';
+export { LRUCache } from './src/LRUCache';
