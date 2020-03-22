@@ -1,0 +1,17 @@
+{
+  "name": "lru",
+  "version": "0.1.0",
+  "author": "Vladyslav Branytskyi",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "data-structures": "git+https://github.com/ASPIR141/Data-Structures.git"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}
